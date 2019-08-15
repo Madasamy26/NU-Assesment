@@ -48,7 +48,7 @@ class App extends Component {
         <Container>
           <Row>
             <Col xs="8">
-              <h4>Products catalog</h4>
+              <h4>Products </h4>
               <hr />
               {this.state.catalogProducts.map((product, key) => (
                 <div key={product.id}>
